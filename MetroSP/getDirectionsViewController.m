@@ -231,13 +231,6 @@ float tableHeight = 30;
 	substring = [substring stringByReplacingCharactersInRange:range withString:string];
 	[self searchAutocompleteEntriesWithSubstring:substring];
     
-    
-    
-    //seta a posica do table baseado no textfield
-    //    [autoCompleteTableView  setFrame:CGRectMake(textField.frame.origin.x ,
-    //                                              textField.frame.origin.y + textField.frame.size.height , 
-    //                                              autoCompleteTableView.frame.size.width,
-    //                                               autoCompleteTableView.frame.size.height)];
     autoCompleteTableView.hidden = NO;
 	[autoCompleteTableView reloadData];
     
@@ -268,6 +261,11 @@ float tableHeight = 30;
         
     }
     
+    //Se nao tiver retorno na pesquisa, esconde a tabela
+    if (autoCompleteArray.count == 0) 
+        autoCompleteTableView.hidden = TRUE;
+    else
+        autoCompleteTableView.hidden = FALSE;
     
 	//Resize auto complete table based on how many elements will be displayed in the table
 	if (autoCompleteArray.count >=3) {

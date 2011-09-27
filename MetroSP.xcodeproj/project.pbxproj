@@ -30,6 +30,10 @@
 		B230AF871431E232002E859E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B230AF861431E232002E859E /* libz.dylib */; };
 		B230AF901431E25F002E859E /* getDirectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B230AF8E1431E25F002E859E /* getDirectionsViewController.m */; };
 		B230AF911431E25F002E859E /* getDirectionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B230AF8F1431E25F002E859E /* getDirectionsViewController.xib */; };
+		B2A018101431F99C00819695 /* mapa_incompleto.png in Resources */ = {isa = PBXBuildFile; fileRef = B2A0180F1431F99C00819695 /* mapa_incompleto.png */; };
+		B2F9E0EB1431ECC200812D0F /* mapa_atualizado.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F9E0EA1431ECC200812D0F /* mapa_atualizado.png */; };
+		B2F9E0F51431ECEF00812D0F /* networkMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F9E0F31431ECEF00812D0F /* networkMapViewController.m */; };
+		B2F9E0F61431ECEF00812D0F /* networkMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2F9E0F41431ECEF00812D0F /* networkMapViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +71,11 @@
 		B230AF8D1431E25F002E859E /* getDirectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getDirectionsViewController.h; sourceTree = "<group>"; };
 		B230AF8E1431E25F002E859E /* getDirectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = getDirectionsViewController.m; sourceTree = "<group>"; };
 		B230AF8F1431E25F002E859E /* getDirectionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = getDirectionsViewController.xib; sourceTree = "<group>"; };
+		B2A0180F1431F99C00819695 /* mapa_incompleto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapa_incompleto.png; sourceTree = "<group>"; };
+		B2F9E0EA1431ECC200812D0F /* mapa_atualizado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapa_atualizado.png; sourceTree = "<group>"; };
+		B2F9E0F21431ECEF00812D0F /* networkMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = networkMapViewController.h; sourceTree = "<group>"; };
+		B2F9E0F31431ECEF00812D0F /* networkMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = networkMapViewController.m; sourceTree = "<group>"; };
+		B2F9E0F41431ECEF00812D0F /* networkMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = networkMapViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +128,7 @@
 				B2EB5BB91431E66B00510CA7 /* Arquivos */,
 				B230AF731431E0FB002E859E /* Icons */,
 				B230AF611431E0E8002E859E /* XMLParser */,
-				B2EB5BB71431E65700510CA7 /* New Group */,
+				B2EB5BB71431E65700510CA7 /* Mapas */,
 				B230AF3E1431E026002E859E /* Supporting Files */,
 			);
 			path = MetroSP;
@@ -166,11 +175,13 @@
 			name = Icons;
 			sourceTree = "<group>";
 		};
-		B2EB5BB71431E65700510CA7 /* New Group */ = {
+		B2EB5BB71431E65700510CA7 /* Mapas */ = {
 			isa = PBXGroup;
 			children = (
+				B2A0180F1431F99C00819695 /* mapa_incompleto.png */,
+				B2F9E0EA1431ECC200812D0F /* mapa_atualizado.png */,
 			);
-			name = "New Group";
+			name = Mapas;
 			sourceTree = "<group>";
 		};
 		B2EB5BB81431E65900510CA7 /* XIBs */ = {
@@ -179,6 +190,7 @@
 				B230AF491431E026002E859E /* MainWindow.xib */,
 				B230AF4F1431E026002E859E /* RootViewController.xib */,
 				B230AF8F1431E25F002E859E /* getDirectionsViewController.xib */,
+				B2F9E0F41431ECEF00812D0F /* networkMapViewController.xib */,
 			);
 			name = XIBs;
 			sourceTree = "<group>";
@@ -192,6 +204,8 @@
 				B230AF4D1431E026002E859E /* RootViewController.m */,
 				B230AF8D1431E25F002E859E /* getDirectionsViewController.h */,
 				B230AF8E1431E25F002E859E /* getDirectionsViewController.m */,
+				B2F9E0F21431ECEF00812D0F /* networkMapViewController.h */,
+				B2F9E0F31431ECEF00812D0F /* networkMapViewController.m */,
 			);
 			name = Arquivos;
 			sourceTree = "<group>";
@@ -253,6 +267,9 @@
 				B230AF7C1431E108002E859E /* icon_stations.png in Resources */,
 				B230AF7D1431E108002E859E /* icon_stations_text.png in Resources */,
 				B230AF911431E25F002E859E /* getDirectionsViewController.xib in Resources */,
+				B2F9E0EB1431ECC200812D0F /* mapa_atualizado.png in Resources */,
+				B2F9E0F61431ECEF00812D0F /* networkMapViewController.xib in Resources */,
+				B2A018101431F99C00819695 /* mapa_incompleto.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +289,7 @@
 				B230AF721431E0F1002E859E /* TBXMLEx.m in Sources */,
 				B230AF801431E10F002E859E /* Estacao.m in Sources */,
 				B230AF901431E25F002E859E /* getDirectionsViewController.m in Sources */,
+				B2F9E0F51431ECEF00812D0F /* networkMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +327,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -317,7 +336,10 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PROFILING_CODE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -326,13 +348,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PROFILING_CODE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Release;

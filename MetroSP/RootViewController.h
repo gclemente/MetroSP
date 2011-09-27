@@ -17,5 +17,5 @@
 
 
 -(void) openGetDirections;
-
+-(void) openNetworkMap;
 @end

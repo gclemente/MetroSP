@@ -8,7 +8,7 @@
 
 #import "RootViewController.h"
 #import "getDirectionsViewController.h"
-
+#import "networkMapViewController.h"
 @implementation RootViewController
 
 
@@ -36,7 +36,7 @@
     UIButton * btnMapaLinha = [[UIButton buttonWithType:UIButtonTypeCustom]retain];
     [btnMapaLinha setFrame:CGRectMake(0, 0, 100, 120)];
     [btnMapaLinha setImage:[UIImage imageNamed:@"icon_map_text.png"] forState:UIControlStateNormal];
-    [btnMapaLinha addTarget:self action:@selector(teste) forControlEvents:UIControlEventTouchUpInside];
+    [btnMapaLinha addTarget:self action:@selector(openNetworkMap) forControlEvents:UIControlEventTouchUpInside];
     [lista addObject:btnMapaLinha];
     [btnMapaLinha release];
     
@@ -109,6 +109,14 @@
     
 }
 
+-(void) openNetworkMap {
+    
+    networkMapViewController * nmVC = [[networkMapViewController alloc] initWithNibName:@"networkMapViewController" bundle:nil];
+    
+    [self.navigationController pushViewController:nmVC animated:TRUE];
+    
+    
+}
 
 -(void) openGetDirections {
     
