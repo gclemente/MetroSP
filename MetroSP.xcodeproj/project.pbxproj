@@ -16,6 +16,20 @@
 		B230AF4B1431E026002E859E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B230AF491431E026002E859E /* MainWindow.xib */; };
 		B230AF4E1431E026002E859E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B230AF4D1431E026002E859E /* RootViewController.m */; };
 		B230AF511431E026002E859E /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B230AF4F1431E026002E859E /* RootViewController.xib */; };
+		B230AF6E1431E0F1002E859E /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B230AF651431E0F1002E859E /* NSDataAdditions.m */; };
+		B230AF6F1431E0F1002E859E /* stations.xml in Resources */ = {isa = PBXBuildFile; fileRef = B230AF661431E0F1002E859E /* stations.xml */; };
+		B230AF701431E0F1002E859E /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = B230AF681431E0F1002E859E /* TBXML.m */; };
+		B230AF711431E0F1002E859E /* TBXMLElementEx.m in Sources */ = {isa = PBXBuildFile; fileRef = B230AF6A1431E0F1002E859E /* TBXMLElementEx.m */; };
+		B230AF721431E0F1002E859E /* TBXMLEx.m in Sources */ = {isa = PBXBuildFile; fileRef = B230AF6C1431E0F1002E859E /* TBXMLEx.m */; };
+		B230AF791431E108002E859E /* icon_direction_text.png in Resources */ = {isa = PBXBuildFile; fileRef = B230AF741431E108002E859E /* icon_direction_text.png */; };
+		B230AF7A1431E108002E859E /* icon_map_text.png in Resources */ = {isa = PBXBuildFile; fileRef = B230AF751431E108002E859E /* icon_map_text.png */; };
+		B230AF7B1431E108002E859E /* icon_realtime_text.png in Resources */ = {isa = PBXBuildFile; fileRef = B230AF761431E108002E859E /* icon_realtime_text.png */; };
+		B230AF7C1431E108002E859E /* icon_stations.png in Resources */ = {isa = PBXBuildFile; fileRef = B230AF771431E108002E859E /* icon_stations.png */; };
+		B230AF7D1431E108002E859E /* icon_stations_text.png in Resources */ = {isa = PBXBuildFile; fileRef = B230AF781431E108002E859E /* icon_stations_text.png */; };
+		B230AF801431E10F002E859E /* Estacao.m in Sources */ = {isa = PBXBuildFile; fileRef = B230AF7F1431E10F002E859E /* Estacao.m */; };
+		B230AF871431E232002E859E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B230AF861431E232002E859E /* libz.dylib */; };
+		B230AF901431E25F002E859E /* getDirectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B230AF8E1431E25F002E859E /* getDirectionsViewController.m */; };
+		B230AF911431E25F002E859E /* getDirectionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B230AF8F1431E25F002E859E /* getDirectionsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +37,36 @@
 		B230AF371431E026002E859E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B230AF391431E026002E859E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B230AF3B1431E026002E859E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B230AF3F1431E026002E859E /* MetroSP-Info.plist */ = {isa = PBXFileReference; path = "MetroSP-Info.plist"; sourceTree = "<group>"; };
+		B230AF3F1431E026002E859E /* MetroSP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MetroSP-Info.plist"; sourceTree = "<group>"; };
 		B230AF411431E026002E859E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B230AF431431E026002E859E /* MetroSP-Prefix.pch */ = {isa = PBXFileReference; path = "MetroSP-Prefix.pch"; sourceTree = "<group>"; };
+		B230AF431431E026002E859E /* MetroSP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MetroSP-Prefix.pch"; sourceTree = "<group>"; };
 		B230AF441431E026002E859E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B230AF461431E026002E859E /* MetroSPAppDelegate.h */ = {isa = PBXFileReference; path = MetroSPAppDelegate.h; sourceTree = "<group>"; };
+		B230AF461431E026002E859E /* MetroSPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetroSPAppDelegate.h; sourceTree = "<group>"; };
 		B230AF471431E026002E859E /* MetroSPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetroSPAppDelegate.m; sourceTree = "<group>"; };
 		B230AF4A1431E026002E859E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		B230AF4C1431E026002E859E /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		B230AF4C1431E026002E859E /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		B230AF4D1431E026002E859E /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		B230AF501431E026002E859E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		B230AF641431E0F1002E859E /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
+		B230AF651431E0F1002E859E /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
+		B230AF661431E0F1002E859E /* stations.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = stations.xml; sourceTree = "<group>"; };
+		B230AF671431E0F1002E859E /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		B230AF681431E0F1002E859E /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		B230AF691431E0F1002E859E /* TBXMLElementEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXMLElementEx.h; sourceTree = "<group>"; };
+		B230AF6A1431E0F1002E859E /* TBXMLElementEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXMLElementEx.m; sourceTree = "<group>"; };
+		B230AF6B1431E0F1002E859E /* TBXMLEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXMLEx.h; sourceTree = "<group>"; };
+		B230AF6C1431E0F1002E859E /* TBXMLEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXMLEx.m; sourceTree = "<group>"; };
+		B230AF741431E108002E859E /* icon_direction_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_direction_text.png; sourceTree = "<group>"; };
+		B230AF751431E108002E859E /* icon_map_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_map_text.png; sourceTree = "<group>"; };
+		B230AF761431E108002E859E /* icon_realtime_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_realtime_text.png; sourceTree = "<group>"; };
+		B230AF771431E108002E859E /* icon_stations.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_stations.png; sourceTree = "<group>"; };
+		B230AF781431E108002E859E /* icon_stations_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_stations_text.png; sourceTree = "<group>"; };
+		B230AF7E1431E10F002E859E /* Estacao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Estacao.h; sourceTree = "<group>"; };
+		B230AF7F1431E10F002E859E /* Estacao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Estacao.m; sourceTree = "<group>"; };
+		B230AF861431E232002E859E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B230AF8D1431E25F002E859E /* getDirectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getDirectionsViewController.h; sourceTree = "<group>"; };
+		B230AF8E1431E25F002E859E /* getDirectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = getDirectionsViewController.m; sourceTree = "<group>"; };
+		B230AF8F1431E25F002E859E /* getDirectionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = getDirectionsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B230AF871431E232002E859E /* libz.dylib in Frameworks */,
 				B230AF381431E026002E859E /* UIKit.framework in Frameworks */,
 				B230AF3A1431E026002E859E /* Foundation.framework in Frameworks */,
 				B230AF3C1431E026002E859E /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +87,7 @@
 		B230AF281431E026002E859E = {
 			isa = PBXGroup;
 			children = (
+				B230AF861431E232002E859E /* libz.dylib */,
 				B230AF3D1431E026002E859E /* MetroSP */,
 				B230AF361431E026002E859E /* Frameworks */,
 				B230AF341431E026002E859E /* Products */,
@@ -79,12 +115,11 @@
 		B230AF3D1431E026002E859E /* MetroSP */ = {
 			isa = PBXGroup;
 			children = (
-				B230AF461431E026002E859E /* MetroSPAppDelegate.h */,
-				B230AF471431E026002E859E /* MetroSPAppDelegate.m */,
-				B230AF491431E026002E859E /* MainWindow.xib */,
-				B230AF4C1431E026002E859E /* RootViewController.h */,
-				B230AF4D1431E026002E859E /* RootViewController.m */,
-				B230AF4F1431E026002E859E /* RootViewController.xib */,
+				B2EB5BB81431E65900510CA7 /* XIBs */,
+				B2EB5BB91431E66B00510CA7 /* Arquivos */,
+				B230AF731431E0FB002E859E /* Icons */,
+				B230AF611431E0E8002E859E /* XMLParser */,
+				B2EB5BB71431E65700510CA7 /* New Group */,
 				B230AF3E1431E026002E859E /* Supporting Files */,
 			);
 			path = MetroSP;
@@ -99,6 +134,66 @@
 				B230AF441431E026002E859E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B230AF611431E0E8002E859E /* XMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				B230AF7E1431E10F002E859E /* Estacao.h */,
+				B230AF7F1431E10F002E859E /* Estacao.m */,
+				B230AF641431E0F1002E859E /* NSDataAdditions.h */,
+				B230AF651431E0F1002E859E /* NSDataAdditions.m */,
+				B230AF661431E0F1002E859E /* stations.xml */,
+				B230AF671431E0F1002E859E /* TBXML.h */,
+				B230AF681431E0F1002E859E /* TBXML.m */,
+				B230AF691431E0F1002E859E /* TBXMLElementEx.h */,
+				B230AF6A1431E0F1002E859E /* TBXMLElementEx.m */,
+				B230AF6B1431E0F1002E859E /* TBXMLEx.h */,
+				B230AF6C1431E0F1002E859E /* TBXMLEx.m */,
+			);
+			name = XMLParser;
+			sourceTree = "<group>";
+		};
+		B230AF731431E0FB002E859E /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				B230AF741431E108002E859E /* icon_direction_text.png */,
+				B230AF751431E108002E859E /* icon_map_text.png */,
+				B230AF761431E108002E859E /* icon_realtime_text.png */,
+				B230AF771431E108002E859E /* icon_stations.png */,
+				B230AF781431E108002E859E /* icon_stations_text.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		B2EB5BB71431E65700510CA7 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		B2EB5BB81431E65900510CA7 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				B230AF491431E026002E859E /* MainWindow.xib */,
+				B230AF4F1431E026002E859E /* RootViewController.xib */,
+				B230AF8F1431E25F002E859E /* getDirectionsViewController.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+		B2EB5BB91431E66B00510CA7 /* Arquivos */ = {
+			isa = PBXGroup;
+			children = (
+				B230AF461431E026002E859E /* MetroSPAppDelegate.h */,
+				B230AF471431E026002E859E /* MetroSPAppDelegate.m */,
+				B230AF4C1431E026002E859E /* RootViewController.h */,
+				B230AF4D1431E026002E859E /* RootViewController.m */,
+				B230AF8D1431E25F002E859E /* getDirectionsViewController.h */,
+				B230AF8E1431E25F002E859E /* getDirectionsViewController.m */,
+			);
+			name = Arquivos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +246,13 @@
 				B230AF421431E026002E859E /* InfoPlist.strings in Resources */,
 				B230AF4B1431E026002E859E /* MainWindow.xib in Resources */,
 				B230AF511431E026002E859E /* RootViewController.xib in Resources */,
+				B230AF6F1431E0F1002E859E /* stations.xml in Resources */,
+				B230AF791431E108002E859E /* icon_direction_text.png in Resources */,
+				B230AF7A1431E108002E859E /* icon_map_text.png in Resources */,
+				B230AF7B1431E108002E859E /* icon_realtime_text.png in Resources */,
+				B230AF7C1431E108002E859E /* icon_stations.png in Resources */,
+				B230AF7D1431E108002E859E /* icon_stations_text.png in Resources */,
+				B230AF911431E25F002E859E /* getDirectionsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +266,12 @@
 				B230AF451431E026002E859E /* main.m in Sources */,
 				B230AF481431E026002E859E /* MetroSPAppDelegate.m in Sources */,
 				B230AF4E1431E026002E859E /* RootViewController.m in Sources */,
+				B230AF6E1431E0F1002E859E /* NSDataAdditions.m in Sources */,
+				B230AF701431E0F1002E859E /* TBXML.m in Sources */,
+				B230AF711431E0F1002E859E /* TBXMLElementEx.m in Sources */,
+				B230AF721431E0F1002E859E /* TBXMLEx.m in Sources */,
+				B230AF801431E10F002E859E /* Estacao.m in Sources */,
+				B230AF901431E25F002E859E /* getDirectionsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +384,7 @@
 				B230AF561431E026002E859E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,9 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewController : UITableViewController {
+@interface RootViewController : UIViewController {
 
 }
 
+-(void) criaVisual ;
+-(void) montaDashBoardWith:(NSMutableArray *) lista andMinimalX:(CGFloat ) x andMinimalY:(CGFloat ) y;
+
+
+-(void) openGetDirections;
 
 @end

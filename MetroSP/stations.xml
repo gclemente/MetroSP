@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<estacoes>
+
+<estacao estacaoId="152" vertexId="6" vertexType="1" nome="Ana Rosa" linhaId="1" linha="1-Azul" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="14" vertexId="1" vertexType="0" nome="Armênia" linhaId="1" linha="1-Azul" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="12" vertexId="1" vertexType="0" nome="Carandiru" linhaId="1"	linha="1-Azul" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="29" vertexId="7" vertexType="0" nome="Conceição" linhaId="1" linha="1-Azul" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="30" vertexId="8" vertexType="1" nome="Jabaquara" linhaId="1" linha="1-Azul" tipoId="4" tipo="Metrô / EMTU" />
+<estacao estacaoId="10" vertexId="1" vertexType="0" nome="Jardim São Paulo" linhaId="1" linha="1-Azul" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="19" vertexId="5" vertexType="0" nome="Liberdade" linhaId="1" linha="1-Azul" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="171" vertexId="2" vertexType="1" nome="Luz" linhaId="1" linha="1-Azul" tipoId="4" tipo="Metrô / CPTM" />
+<estacao estacaoId="9" vertexId="1" vertexType="0" nome="Parada Inglesa" linhaId="1" linha="1-Azul" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="174" vertexId="6" vertexType="1" nome="Paraíso" linhaId="1" linha="1-Azul" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="13" vertexId="1" vertexType="0" nome="Tietê" linhaId="1" linha="1-Azul" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="26" vertexId="7" vertexType="0" nome="Praça da Árvore" linhaId="1" linha="1-Azul" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="25" vertexId="7" vertexType="0" nome="Santa Cruz" linhaId="1" linha="1-Azul" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="11" vertexId="1" vertexType="0" nome="Santana" linhaId="1" linha="1-Azul" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="17" vertexId="3" vertexType="0" nome="São Bento"  linhaId="1" linha="1-Azul" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="20" vertexId="5" vertexType="0" nome="São Joaquim"  linhaId="1" linha="1-Azul" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="28" vertexId="7" vertexType="0" nome="São Judas"  linhaId="1" linha="1-Azul" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="27" vertexId="7" vertexType="0" nome="Saúde"  linhaId="1" linha="1-Azul" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="186" vertexId="4" vertexType="1" nome="Sé"  linhaId="1" linha="1-Azul" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="15" vertexId="1" vertexType="0" nome="Tiradentes"  linhaId="1" linha="1-Azul" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="8" vertexId="1" vertexType="0" nome="Tucuruvi"  linhaId="1" linha="1-Azul" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="21" vertexId="5" vertexType="0" nome="Vergueiro"  linhaId="1" linha="1-Azul" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="24" vertexId="7" vertexType="0" nome="Vila Mariana"  linhaId="1" linha="1-Azul" tipoId="1" tipo="Metrô" />
+
+<estacao estacaoId="151" vertexId="12" vertexType="0" nome="Alto do Ipiranga"  linhaId="2" linha="2-Verde" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="153" vertexId="6" vertexType="1" nome="Ana Rosa"  linhaId="2" linha="2-Verde" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="48" vertexId="11" vertexType="0" nome="Brigadeiro"  linhaId="2" linha="2-Verde" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="149" vertexId="12" vertexType="0" nome="Chácara Klabin"  linhaId="2" linha="2-Verde" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="51" vertexId="9" vertexType="0" nome="Clínicas"  linhaId="2" linha="2-Verde" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="50" vertexId="10" vertexType="1" nome="Consolação"  linhaId="2" linha="2-Verde" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="150" vertexId="12" vertexType="0" nome="Imigrantes"  linhaId="2" linha="2-Verde" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="175" vertexId="6" vertexType="1" nome="Paraíso"  linhaId="2" linha="2-Verde" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="200" vertexId="12" vertexType="0" nome="Sacomã"  linhaId="2" linha="2-Verde" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="52" vertexId="9" vertexType="0" nome="Sumaré"  linhaId="2" linha="2-Verde" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="201" vertexId="13" vertexType="1" nome="Tamanduateí"  linhaId="2" linha="2-Verde" tipoId="4" tipo="Metrô / CPTM" />
+<estacao estacaoId="49" vertexId="11" vertexType="0" nome="Trianon-Masp"  linhaId="2" linha="2-Verde" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="188" vertexId="9" vertexType="0" nome="Vila Madalena"  linhaId="2" linha="2-Verde" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="202" vertexId="14" vertexType="0" nome="Vila Prudente"  linhaId="2" linha="2-Verde" tipoId="1" tipo="Metrô" />
+
+<estacao estacaoId="35" vertexId="18" vertexType="0" nome="Anhangabaú"  linhaId="3" linha="3-Vermelha" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="46" vertexId="23" vertexType="0" nome="Artur Alvim"  linhaId="3" linha="3-Vermelha" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="39" vertexId="23" vertexType="0" nome="Belém"  linhaId="3" linha="3-Vermelha" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="157" vertexId="20" vertexType="1" nome="Brás"  linhaId="3" linha="3-Vermelha" tipoId="4" tipo="Metrô / CPTM" />
+<estacao estacaoId="38" vertexId="23" vertexType="0" nome="Bresser-Mooca"  linhaId="3" linha="3-Vermelha" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="41" vertexId="23" vertexType="0" nome="Carrão"  linhaId="3" linha="3-Vermelha" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="165" vertexId="24" vertexType="1" nome="Itaquera"  linhaId="3" linha="3-Vermelha" tipoId="4" tipo="Metrô / CPTM" />
+<estacao estacaoId="44" vertexId="23" vertexType="0" nome="Guilhermina-Esperança"  linhaId="3" linha="3-Vermelha" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="32" vertexId="16" vertexType="0" nome="Marechal Deodoro"  linhaId="3" linha="3-Vermelha" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="156" vertexId="15" vertexType="1" nome="Barra Funda"  linhaId="3" linha="3-Vermelha" tipoId="4" tipo="Metrô / CPTM" />
+<estacao estacaoId="45" vertexId="23" vertexType="0" nome="Patriarca"  linhaId="3" linha="3-Vermelha" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="36" vertexId="19" vertexType="0" nome="Pedro II"  linhaId="3" linha="3-Vermelha" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="42" vertexId="23" vertexType="0" nome="Penha"  linhaId="3" linha="3-Vermelha" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="34" vertexId="17" vertexType="1" nome="República"  linhaId="3" linha="3-Vermelha" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="33" vertexId="16" vertexType="0" nome="Santa Cecília"  linhaId="3" linha="3-Vermelha" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="187" vertexId="4" vertexType="1" nome="Sé"  linhaId="3" linha="3-Vermelha" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="182" vertexId="23" vertexType="1" nome="Tatuapé"  linhaId="3" linha="3-Vermelha" tipoId="4" tipo="Metrô / CPTM" />
+<estacao estacaoId="43" vertexId="23" vertexType="0" nome="Vila Matilde"  linhaId="3" linha="3-Vermelha" tipoId="1" tipo="Metrô" />
+
+<estacao estacaoId="220" vertexId="25" vertexType="0" nome="Butantã"  linhaId="17" linha="4-Amarela" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="218" vertexId="27" vertexType="0" nome="Faria Lima"  linhaId="17" linha="4-Amarela" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="214" vertexId="10" vertexType="1" nome="Paulista"  linhaId="17" linha="4-Amarela" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="335" vertexId="26" vertexType="1" nome="Pinheiros"  linhaId="17" linha="4-Amarela" tipoId="4" tipo="Metrô / CPTM" />
+<estacao estacaoId="336" vertexId="17" vertexType="1" nome="República"  linhaId="17" linha="4-Amarela" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="337" vertexId="2" vertexType="1" nome="Luz"  linhaId="17" linha="4-Amarela" tipoId="4" tipo="Metrô / CPTM" />
+
+<estacao estacaoId="55" vertexId="28" vertexType="0" nome="Campo Limpo"  linhaId="10" linha="5-Lilás" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="54" vertexId="28" vertexType="0" nome="Capão Redondo"  linhaId="10" linha="5-Lilás" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="57" vertexId="28" vertexType="0" nome="Giovanni Gronchi"  linhaId="10" linha="5-Lilás" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="59" vertexId="30" vertexType="0" nome="Largo 13"  linhaId="10" linha="5-Lilás" tipoId="1" tipo="Metrô" />
+<estacao estacaoId="179" vertexId="29" vertexType="1" nome="Santo Amaro"  linhaId="10" linha="5-Lilás" tipoId="4" tipo="Metrô / CPTM" />
+<estacao estacaoId="56" vertexId="18" vertexType="0" nome="Vila das Belezas"  linhaId="10" linha="5-Lilás" tipoId="1" tipo="Metrô" />
+
+<estacao estacaoId="74" vertexId="33" vertexType="0" nome="Água Branca"  linhaId="4" linha="7-Rubi (Luz-Francisco Morato-Jundiai)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="65" vertexId="33" vertexType="0" nome="Baltazar Fidélis"  linhaId="4" linha="7-Rubi (Luz-Francisco Morato-Jundiai)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="154" vertexId="15" vertexType="1" nome="Barra Funda"  linhaId="4" linha="7-Rubi (Luz-Francisco Morato-Jundiai)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="206" vertexId="31" vertexType="0" nome="Botujuru"  linhaId="4" linha="7-Rubi (Luz-Francisco Morato-Jundiai)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="67" vertexId="33" vertexType="0" nome="Caieiras"  linhaId="4" linha="7-Rubi (Luz-Francisco Morato-Jundiai)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="205" vertexId="31" vertexType="0" nome="Campo Limpo Paulista"  linhaId="4" linha="7-Rubi (Luz-Francisco Morato-Jundiai)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="64" vertexId="33" vertexType="1" nome="Francisco Morato"  linhaId="4" linha="7-Rubi (Luz-Francisco Morato-Jundiai)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="66" vertexId="33" vertexType="0" nome="Franco da Rocha"  linhaId="4" linha="7-Rubi (Luz-Francisco Morato-Jundiai)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="69" vertexId="33" vertexType="0" nome="Jaraguá"  linhaId="4" linha="7-Rubi (Luz-Francisco Morato-Jundiai)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="203" vertexId="31" vertexType="0" nome="Jundiaí"  linhaId="4" linha="7-Rubi (Luz-Francisco Morato-Jundiai)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="73" vertexId="33" vertexType="0" nome="Lapa"  linhaId="4" linha="7-Rubi (Luz-Francisco Morato-Jundiai)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="170" vertexId="2" vertexType="1" nome="Luz"  linhaId="4" linha="7-Rubi (Luz-Francisco Morato-Jundiai)" tipoId="4" tipo="Metrô / CPTM" />
+<estacao estacaoId="68" vertexId="33" vertexType="0" nome="Perus"  linhaId="4" linha="7-Rubi (Luz-Francisco Morato-Jundiai)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="72" vertexId="33" vertexType="0" nome="Piqueri"  linhaId="4" linha="7-Rubi (Luz-Francisco Morato-Jundiai)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="71" vertexId="33" vertexType="0" nome="Pirituba"  linhaId="4" linha="7-Rubi (Luz-Francisco Morato-Jundiai)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="204" vertexId="31" vertexType="0" nome="Várzea Paulista"  linhaId="4" linha="7-Rubi (Luz-Francisco Morato-Jundiai)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="70" vertexId="33" vertexType="0" nome="Vila Clarice"  linhaId="4" linha="7-Rubi (Luz-Francisco Morato-Jundiai)" tipoId="2" tipo="CPTM" />
+
+<estacao estacaoId="86" vertexId="36" vertexType="0" nome="Antônio João"  linhaId="5" linha="8-Diamante (Júlio Prestes-Itapevi-Amador Bueno)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="155" vertexId="15" vertexType="1" nome="Barra Funda"  linhaId="5" linha="8-Diamante (Júlio Prestes-Itapevi-Amador Bueno)" tipoId="4" tipo="Metrô / CPTM" />
+<estacao estacaoId="85" vertexId="36" vertexType="0" nome="Barueri"  linhaId="5" linha="8-Diamante (Júlio Prestes-Itapevi-Amador Bueno)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="88" vertexId="36" vertexType="0" nome="Carapicuíba"  linhaId="5" linha="8-Diamante (Júlio Prestes-Itapevi-Amador Bueno)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="91" vertexId="36" vertexType="0" nome="Comandante Sampaio"  linhaId="5" linha="8-Diamante (Júlio Prestes-Itapevi-Amador Bueno)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="95" vertexId="38" vertexType="0" nome="Domingos de Moraes"  linhaId="5" linha="8-Diamante (Júlio Prestes-Itapevi-Amador Bueno)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="80" vertexId="36" vertexType="0" nome="Engenheiro Cardoso"  linhaId="5" linha="8-Diamante (Júlio Prestes-Itapevi-Amador Bueno)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="89" vertexId="36" vertexType="0" nome="General Miguel Costa"  linhaId="5" linha="8-Diamante (Júlio Prestes-Itapevi-Amador Bueno)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="94" vertexId="38" vertexType="0" nome="Imperatriz Leopoldina"  linhaId="5" linha="8-Diamante (Júlio Prestes-Itapevi-Amador Bueno)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="79" vertexId="35" vertexType="1" nome="Itapevi"  linhaId="5" linha="8-Diamante (Júlio Prestes-Itapevi-Amador Bueno)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="82" vertexId="36" vertexType="0" nome="Jandira"  linhaId="5" linha="8-Diamante (Júlio Prestes-Itapevi-Amador Bueno)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="84" vertexId="36" vertexType="0" nome="Jardim Belval"  linhaId="5" linha="8-Diamante (Júlio Prestes-Itapevi-Amador Bueno)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="83" vertexId="36" vertexType="0" nome="Jardim Silveira"  linhaId="5" linha="8-Diamante (Júlio Prestes-Itapevi-Amador Bueno)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="148" vertexId="39" vertexType="0" nome="Júlio Prestes"  linhaId="5" linha="8-Diamante (Júlio Prestes-Itapevi-Amador Bueno)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="96" vertexId="38" vertexType="0" nome="Lapa"  linhaId="5" linha="8-Diamante (Júlio Prestes-Itapevi-Amador Bueno)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="172" vertexId="37" vertexType="1" nome="Osasco"  linhaId="5" linha="8-Diamante (Júlio Prestes-Itapevi-Amador Bueno)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="176" vertexId="37" vertexType="1" nome="Presidente Altino"  linhaId="5" linha="8-Diamante (Júlio Prestes-Itapevi-Amador Bueno)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="90" vertexId="36" vertexType="0" nome="Quitaúna"  linhaId="5" linha="8-Diamante (Júlio Prestes-Itapevi-Amador Bueno)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="81" vertexId="36" vertexType="0" nome="Sagrado Coração"  linhaId="5" linha="8-Diamante (Júlio Prestes-Itapevi-Amador Bueno)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="87" vertexId="36" vertexType="0" nome="Santa Terezinha"  linhaId="5" linha="8-Diamante (Júlio Prestes-Itapevi-Amador Bueno)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="401" vertexId="34" vertexType="0" nome="Santa Rita"  linhaId="5" linha="8-Diamante (Júlio Prestes-Itapevi-Amador Bueno)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="402" vertexId="34" vertexType="0" nome="Cimenrita"  linhaId="5" linha="8-Diamante (Júlio Prestes-Itapevi-Amador Bueno)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="403" vertexId="34" vertexType="0" nome="Ambuíta"  linhaId="5" linha="8-Diamante (Júlio Prestes-Itapevi-Amador Bueno)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="404" vertexId="34" vertexType="0" nome="Amador Bueno"  linhaId="5" linha="8-Diamante (Júlio Prestes-Itapevi-Amador Bueno)" tipoId="2" tipo="CPTM" />
+
+<estacao estacaoId="192" vertexId="44" vertexType="0" nome="Autódromo"  linhaId="6" linha="9-Esmeralda (Osasco-Grajaú)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="104" vertexId="41" vertexType="0" nome="Berrini"  linhaId="6" linha="9-Esmeralda (Osasco-Grajaú)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="97" vertexId="40" vertexType="0" nome="Ceasa"  linhaId="6" linha="9-Esmeralda (Osasco-Grajaú)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="102" vertexId="41" vertexType="0" nome="Cidade Jardim"  linhaId="6" linha="9-Esmeralda (Osasco-Grajaú)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="190" vertexId="40" vertexType="0" nome="Cidade Universitária"  linhaId="6" linha="9-Esmeralda (Osasco-Grajaú)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="198" vertexId="44" vertexType="0" nome="Grajaú"  linhaId="6" linha="9-Esmeralda (Osasco-Grajaú)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="106" vertexId="43" vertexType="0" nome="Granja Julieta"  linhaId="6" linha="9-Esmeralda (Osasco-Grajaú)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="101" vertexId="41" vertexType="0" nome="Hebraica-Rebouças"  linhaId="6" linha="9-Esmeralda (Osasco-Grajaú)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="108" vertexId="44" vertexType="0" nome="Jurubatuba"  linhaId="6" linha="9-Esmeralda (Osasco-Grajaú)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="173" vertexId="37" vertexType="1" nome="Osasco"  linhaId="6" linha="9-Esmeralda (Osasco-Grajaú)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="100" vertexId="26" vertexType="1" nome="Pinheiros"  linhaId="6" linha="9-Esmeralda (Osasco-Grajaú)" tipoId="4" tipo="Metrô / CPTM" />
+<estacao estacaoId="177" vertexId="37" vertexType="1" nome="Presidente Altino"  linhaId="6" linha="9-Esmeralda (Osasco-Grajaú)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="197" vertexId="44" vertexType="0" nome="Primavera-Interlagos"  linhaId="6" linha="9-Esmeralda (Osasco-Grajaú)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="178" vertexId="29" vertexType="1" nome="Santo Amaro"  linhaId="6" linha="9-Esmeralda (Osasco-Grajaú)" tipoId="4" tipo="Metrô / CPTM" />
+<estacao estacaoId="105" vertexId="42" vertexType="1" nome="Morumbi"  linhaId="6" linha="9-Esmeralda (Osasco-Grajaú)" tipoId="4" tipo="CPTM / EMTU" />
+<estacao estacaoId="107" vertexId="44" vertexType="0" nome="Socorro"  linhaId="6" linha="9-Esmeralda (Osasco-Grajaú)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="98" vertexId="40" vertexType="0" nome="Vila Lobos - Jaguaré"  linhaId="6" linha="9-Esmeralda (Osasco-Grajaú)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="103" vertexId="41" vertexType="0" nome="Vila Olímpia"  linhaId="6" linha="9-Esmeralda (Osasco-Grajaú)" tipoId="2" tipo="CPTM" />
+
+<estacao estacaoId="158" vertexId="20" vertexType="1" nome="Brás"  linhaId="7" linha="10-Turquesa (Luz-Rio Grande da Serra)" tipoId="4" tipo="Metrô / CPTM" />
+<estacao estacaoId="117" vertexId="48" vertexType="0" nome="Capuava"  linhaId="7" linha="10-Turquesa (Luz-Rio Grande da Serra)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="119" vertexId="48" vertexType="0" nome="Guapituba"  linhaId="7" linha="10-Turquesa (Luz-Rio Grande da Serra)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="110" vertexId="45" vertexType="0" nome="Ipiranga"  linhaId="7" linha="10-Turquesa (Luz-Rio Grande da Serra)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="168" vertexId="2" vertexType="1" nome="Luz"  linhaId="7" linha="10-Turquesa (Luz-Rio Grande da Serra)" tipoId="4" tipo="Metrô / CPTM" />
+<estacao estacaoId="118" vertexId="48" vertexType="0" nome="Mauá"  linhaId="7" linha="10-Turquesa (Luz-Rio Grande da Serra)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="109" vertexId="45" vertexType="0" nome="Mooca"  linhaId="7" linha="10-Turquesa (Luz-Rio Grande da Serra)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="114" vertexId="48" vertexType="0" nome="Prefeito Saladino"  linhaId="7" linha="10-Turquesa (Luz-Rio Grande da Serra)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="120" vertexId="48" vertexType="0" nome="Ribeirão Pires"  linhaId="7" linha="10-Turquesa (Luz-Rio Grande da Serra)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="121" vertexId="48" vertexType="0" nome="Rio Grande da Serra"  linhaId="7" linha="10-Turquesa (Luz-Rio Grande da Serra)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="181" vertexId="47" vertexType="1" nome="Santo André"  linhaId="7" linha="10-Turquesa (Luz-Rio Grande da Serra)" tipoId="4" tipo="CPTM / EMTU" />
+<estacao estacaoId="112" vertexId="46" vertexType="0" nome="São Caetano"  linhaId="7" linha="10-Turquesa (Luz-Rio Grande da Serra)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="111" vertexId="13" vertexType="1" nome="Tamanduateí"  linhaId="7" linha="10-Turquesa (Luz-Rio Grande da Serra)" tipoId="4" tipo="Metrô / CPTM" />
+<estacao estacaoId="113" vertexId="46" vertexType="0" nome="Utinga"  linhaId="7" linha="10-Turquesa (Luz-Rio Grande da Serra)" tipoId="2" tipo="CPTM" />
+
+<estacao estacaoId="134" vertexId="51" vertexType="0" nome="Antonio Gianetti"  linhaId="14" linha="11-Coral (Guaianazes-Estudantes)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="139" vertexId="49" vertexType="0" nome="Brás Cubas"  linhaId="14" linha="11-Coral (Guaianazes-Estudantes)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="162" vertexId="50" vertexType="1" nome="Calmon Viana"  linhaId="14" linha="11-Coral (Guaianazes-Estudantes)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="141" vertexId="49" vertexType="0" nome="Estudantes"  linhaId="14" linha="11-Coral (Guaianazes-Estudantes)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="135" vertexId="51" vertexType="0" nome="Ferraz de Vasconcelos"  linhaId="14" linha="11-Coral (Guaianazes-Estudantes)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="167" vertexId="52" vertexType="1" nome="Guaianazes"  linhaId="14" linha="11-Coral (Guaianazes-Estudantes)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="138" vertexId="49" vertexType="0" nome="Jundiapeba"  linhaId="14" linha="11-Coral (Guaianazes-Estudantes)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="140" vertexId="49" vertexType="0" nome="Mogi das Cruzes"  linhaId="14" linha="11-Coral (Guaianazes-Estudantes)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="136" vertexId="51" vertexType="0" nome="Poá"  linhaId="14" linha="11-Coral (Guaianazes-Estudantes)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="137" vertexId="49" vertexType="0" nome="Suzano"  linhaId="14" linha="11-Coral (Guaianazes-Estudantes)" tipoId="2" tipo="CPTM" />
+
+<estacao estacaoId="159" vertexId="20" vertexType="1" nome="Brás"  linhaId="8" linha="11-Coral-Expresso Leste (Luz-Guaianazes)" tipoId="4" tipo="Metrô / CPTM" />
+<estacao estacaoId="164" vertexId="24" vertexType="1" nome="Itaquera"  linhaId="8" linha="11-Coral-Expresso Leste (Luz-Guaianazes)" tipoId="4" tipo="Metrô / CPTM" />
+<estacao estacaoId="131" vertexId="52" vertexType="0" nome="Dom Bosco"  linhaId="8" linha="11-Coral-Expresso Leste (Luz-Guaianazes)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="166" vertexId="50" vertexType="1" nome="Guaianazes"  linhaId="8" linha="11-Coral-Expresso Leste (Luz-Guaianazes)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="132" vertexId="52" vertexType="0" nome="José Bonifácio"  linhaId="8" linha="11-Coral-Expresso Leste (Luz-Guaianazes)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="169" vertexId="2" vertexType="1" nome="Luz"  linhaId="8" linha="11-Coral-Expresso Leste (Luz-Guaianazes)" tipoId="4" tipo="Metrô / CPTM" />
+<estacao estacaoId="183" vertexId="22" vertexType="1" nome="Tatuapé"  linhaId="8" linha="11-Coral-Expresso Leste (Luz-Guaianazes)" tipoId="4" tipo="Metrô / CPTM" />
+
+<estacao estacaoId="129" vertexId="54" vertexType="0" nome="Aracaré"  linhaId="9" linha="12-Safira (Brás-Calmon Viana)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="161" vertexId="20" vertexType="1" nome="Brás"  linhaId="9" linha="12-Safira (Brás-Calmon Viana)" tipoId="4" tipo="Metrô / CPTM" />
+<estacao estacaoId="163" vertexId="50" vertexType="1" nome="Calmon Viana"  linhaId="9" linha="12-Safira (Brás-Calmon Viana)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="124" vertexId="54" vertexType="0" nome="Comendador Ermelino"  linhaId="9" linha="12-Safira (Brás-Calmon Viana)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="123" vertexId="54" vertexType="0" nome="Engenheiro Goulart"  linhaId="9" linha="12-Safira (Brás-Calmon Viana)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="127" vertexId="54" vertexType="0" nome="Engenheiro Manoel Feio"  linhaId="9" linha="12-Safira (Brás-Calmon Viana)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="126" vertexId="54" vertexType="0" nome="Itaim Paulista"  linhaId="9" linha="12-Safira (Brás-Calmon Viana)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="128" vertexId="54" vertexType="0" nome="Itaquaquecetuba"  linhaId="9" linha="12-Safira (Brás-Calmon Viana)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="199" vertexId="54" vertexType="0" nome="Jardim Helena-Vila Mara"  linhaId="9" linha="12-Safira (Brás-Calmon Viana)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="207" vertexId="54" vertexType="0" nome="Jardim Romano"  linhaId="9" linha="12-Safira (Brás-Calmon Viana)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="125" vertexId="54" vertexType="0" nome="São Miguel Paulista"  linhaId="9" linha="12-Safira (Brás-Calmon Viana)" tipoId="2" tipo="CPTM" />
+<estacao estacaoId="184" vertexId="22" vertexType="1" nome="Tatuapé"  linhaId="9" linha="12-Safira (Brás-Calmon Viana)" tipoId="4" tipo="Metrô / CPTM" />
+<estacao estacaoId="196" vertexId="54" vertexType="0" nome="USP Leste"  linhaId="9" linha="12-Safira (Brás-Calmon Viana)" tipoId="2" tipo="CPTM" />
+
+<estacao estacaoId="142" vertexId="58" vertexType="0" nome="Diadema"  linhaId="11" linha="EMTU" tipoId="3" tipo="EMTU" />
+<estacao estacaoId="145" vertexId="57" vertexType="0" nome="Ferrazópolis"  linhaId="11" linha="EMTU" tipoId="3" tipo="EMTU" />
+<estacao estacaoId="30" vertexId="8" vertexType="1" nome="Jabaquara"  linhaId="11" linha="EMTU" tipoId="3" tipo="EMTU" />
+<estacao estacaoId="143" vertexId="58" vertexType="0" nome="Piraporinha"  linhaId="11" linha="EMTU" tipoId="3" tipo="EMTU" />
+<estacao estacaoId="180" vertexId="47" vertexType="1" nome="Santo André"  linhaId="11" linha="EMTU" tipoId="4" tipo="CPTM / EMTU" />
+<estacao estacaoId="144" vertexId="56" vertexType="1" nome="São Bernardo"  linhaId="11" linha="EMTU" tipoId="3" tipo="EMTU" />
+<estacao estacaoId="147" vertexId="55" vertexType="0" nome="São Mateus"  linhaId="11" linha="EMTU" tipoId="3" tipo="EMTU" />
+<estacao estacaoId="336" vertexId="42" vertexType="1" nome="Morumbi"  linhaId="11" linha="EMTU" tipoId="4" tipo="CPTM / EMTU" />
+<estacao estacaoId="146" vertexId="55" vertexType="0" nome="Sônia Maria"  linhaId="11" linha="EMTU" tipoId="3" tipo="EMTU" />
+
+</estacoes>

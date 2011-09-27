@@ -7,17 +7,149 @@
 //
 
 #import "RootViewController.h"
+#import "getDirectionsViewController.h"
 
 @implementation RootViewController
+
+
+
+-(void) criaVisual {
+    
+    NSMutableArray * lista = [[NSMutableArray alloc] init];
+    
+    UIButton * btnTrajeto = [[UIButton buttonWithType:UIButtonTypeCustom]retain];
+    [btnTrajeto setFrame:CGRectMake(0, 0, 100, 120)];
+    [btnTrajeto setImage:[UIImage imageNamed:@"icon_direction_text.png"] forState:UIControlStateNormal];
+    [btnTrajeto addTarget:self action:@selector(openGetDirections) forControlEvents:UIControlEventTouchUpInside];
+    [lista addObject:btnTrajeto];
+    [btnTrajeto release];
+    
+    
+    UIButton * btnLinhasEstacoes = [[UIButton buttonWithType:UIButtonTypeCustom]retain];
+    [btnLinhasEstacoes setFrame:CGRectMake(0, 0, 100, 120)];
+    [btnLinhasEstacoes setImage:[UIImage imageNamed:@"icon_stations_text.png"] forState:UIControlStateNormal];
+    [btnLinhasEstacoes setImage:[UIImage imageNamed:@"icon_stations_text.png"] forState:UIControlStateSelected];
+    [btnLinhasEstacoes addTarget:self action:@selector(teste) forControlEvents:UIControlEventTouchUpInside];
+    [lista addObject:btnLinhasEstacoes];
+    [btnLinhasEstacoes release];
+    
+    UIButton * btnMapaLinha = [[UIButton buttonWithType:UIButtonTypeCustom]retain];
+    [btnMapaLinha setFrame:CGRectMake(0, 0, 100, 120)];
+    [btnMapaLinha setImage:[UIImage imageNamed:@"icon_map_text.png"] forState:UIControlStateNormal];
+    [btnMapaLinha addTarget:self action:@selector(teste) forControlEvents:UIControlEventTouchUpInside];
+    [lista addObject:btnMapaLinha];
+    [btnMapaLinha release];
+    
+    UIButton * btnTempoReal = [[UIButton buttonWithType:UIButtonTypeCustom]retain];
+    [btnTempoReal setFrame:CGRectMake(0, 0, 100, 120)];
+    [btnTempoReal setImage:[UIImage imageNamed:@"icon_realtime_text.png"] forState:UIControlStateNormal];
+    [btnTempoReal addTarget:self action:@selector(teste) forControlEvents:UIControlEventTouchUpInside];
+    [lista addObject:btnTempoReal];
+    [btnTempoReal release];
+    
+    UIButton * btnSMS = [[UIButton buttonWithType:UIButtonTypeCustom]retain];
+    [btnSMS setFrame:CGRectMake(0, 0, 100, 120)];
+    [btnSMS setTitle:@"SMS Den√∫ncia" forState:UIControlStateNormal];
+    [btnSMS addTarget:self action:@selector(teste) forControlEvents:UIControlEventTouchUpInside];
+    [lista addObject:btnSMS];
+    [btnSMS release];
+    
+    UIButton * btnSobre = [[UIButton buttonWithType:UIButtonTypeCustom]retain];
+    [btnSobre setFrame:CGRectMake(0, 0, 100, 120)];
+    [btnSobre setTitle:@"Sobre" forState:UIControlStateNormal];
+    [btnSobre addTarget:self action:@selector(teste) forControlEvents:UIControlEventTouchUpInside];
+    [lista addObject:btnSobre];
+    [btnSobre release];
+    
+    
+    [self montaDashBoardWith:lista andMinimalX:20.0f andMinimalY:10.0f];
+}
+
+-(void) montaDashBoardWith:(NSMutableArray *) lista andMinimalX:(CGFloat ) x andMinimalY:(CGFloat ) y {
+    int linhaAtual = 0;
+    int colunaAtual = 0;
+    
+    
+    for (UIView * vc in lista){
+        //descobre o numero de componentes por linha (supoe que todos tenham o mesmo tamanho)
+        int numeroColuna = (int)(self.view.frame.size.width / (vc.frame.size.width + x)) ;
+        int numeroLinha = (int)(self.view.frame.size.height / (vc.frame.size.height + y)) ;        
+        
+        
+        //quantidade de espaco vazio 
+        int espacoX = numeroColuna + 1;        
+        //quantidade de espaco tomado pelos componentes
+        CGFloat tamanhoTomadoX = numeroColuna * vc.frame.size.width;
+        //tamanho do espaco (numero de espacos (componentes + 1) dividido por espaco vazio )
+        CGFloat tamanhoEspacoX =  (self.view.frame.size.width - tamanhoTomadoX) / espacoX;
+        //quantidade de espaco vazio 
+        int espacoY = numeroLinha + 1;
+        //quantidade de espaco tomado pelos componentes
+        CGFloat tamanhoTomadoY = numeroLinha * vc.frame.size.height;
+        //tamanho do espaco (numero de espacos (componentes + 1) dividido por espaco vazio )
+        CGFloat tamanhoEspacoY =  (self.view.frame.size.height - tamanhoTomadoY) / espacoY;
+        
+        [vc setFrame:CGRectMake((tamanhoEspacoX * (colunaAtual + 1)) + (vc.frame.size.width * colunaAtual), 
+                                (tamanhoEspacoY * (linhaAtual + 1)) + (vc.frame.size.height * linhaAtual), 
+                                vc.frame.size.width, vc.frame.size.height)];
+        
+        if ((colunaAtual + 1) == numeroColuna) {
+            colunaAtual = 0;//zera
+            linhaAtual++;     
+        }
+        else {
+            colunaAtual++;            
+        }
+        
+        
+        //adiciona na view
+        [self.view addSubview:vc];
+        [vc release];
+    }
+    
+}
+
+
+-(void) openGetDirections {
+    
+    getDirectionsViewController * gdIpod = [[getDirectionsViewController alloc] initWithNibName:@"getDirectionsViewController" bundle:nil];
+
+    [self.navigationController pushViewController:gdIpod animated:TRUE];
+  
+    //-(void) iniciaAutoComplete [gdIpod release];
+    
+}
+-(void) teste {
+    
+    //inicia as classes de scroller
+    
+    
+    //ziminji para gravar cada instancia num bd..
+    
+    
+    //fara filtros por tipo, linha, estacao
+    
+    
+    
+    NSLog(@"teste");
+}
+
+
+
+
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+     [self criaVisual];
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    
+    [self.navigationItem setTitle:@""];
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -28,6 +160,8 @@
 - (void)viewWillDisappear:(BOOL)animated
 {
 	[super viewWillDisappear:animated];
+    [self.navigationItem setTitle:@"Voltar"];
+    
 }
 
 - (void)viewDidDisappear:(BOOL)animated
@@ -43,82 +177,6 @@
 }
  */
 
-// Customize the number of sections in the table view.
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-    return 1;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-    return 0;
-}
-
-// Customize the appearance of table view cells.
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    static NSString *CellIdentifier = @"Cell";
-    
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
-    }
-
-    // Configure the cell.
-    return cell;
-}
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete)
-    {
-        // Delete the row from the data source.
-        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    }
-    else if (editingStyle == UITableViewCellEditingStyleInsert)
-    {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    /*
-    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-    // ...
-    // Pass the selected object to the new view controller.
-    [self.navigationController pushViewController:detailViewController animated:YES];
-    [detailViewController release];
-	*/
-}
 
 - (void)didReceiveMemoryWarning
 {
