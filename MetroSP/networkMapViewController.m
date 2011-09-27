@@ -76,22 +76,52 @@ scroll = _scroll
 	[self updateContentInsetForPageScrollView:pageScrollView];
 }
 
+
+
 - (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
 	// loop through all pages, adjusting their sizes
 	// and calling updateContentInsetForPageScrollView for each
 }
 
-- (void)scrollViewDidEndZooming:(UIScrollView *)scrollView withView:(UIView *)view atScale:(float)scale {
-    NSLog(@"- (void)scrollViewDidEndZooming:(UIScrollView *)scrollView withView:(UIView *)view atScale:(float)scale %@, %@, %f", scrollView, view, scale);
-    //properly sets the scrolling bounds.
-//    scrollView.contentSize = CGSizeMake(600*scale, 5*24*scale);
+
+
+- (void)scrollViewDidEndZooming:(UIScrollView *)scrollView withView:(UIView *)view atScale:(float)scale
+{
+    CGRect innerFrame = view.frame;
+    CGRect scrollerBounds = scrollView.bounds;
+    
+    if ( ( innerFrame.size.width < scrollerBounds.size.width ) || ( innerFrame.size.height < scrollerBounds.size.height ) )
+    {
+        CGFloat tempx = view.center.x - ( scrollerBounds.size.width / 2 );
+        CGFloat tempy = view.center.y - ( scrollerBounds.size.height / 2 );
+        CGPoint myScrollViewOffset = CGPointMake( tempx, tempy);
+        
+        scrollView.contentOffset = myScrollViewOffset;
+        
+    }
+    
+    UIEdgeInsets anEdgeInset = { 0, 0, 0, 0};
+    if ( scrollerBounds.size.width > innerFrame.size.width )
+    {
+        anEdgeInset.left = (scrollerBounds.size.width - innerFrame.size.width) / 2;
+        anEdgeInset.right = -anEdgeInset.left; // I don't know why this needs to be negative, but that's what works
+    }
+    if ( scrollerBounds.size.height > innerFrame.size.height )
+    {
+        anEdgeInset.top = (scrollerBounds.size.height - innerFrame.size.height) / 2;
+        anEdgeInset.bottom = -anEdgeInset.top; // I don't know why this needs to be negative, but that's what works
+    }
+    scrollView.contentInset = anEdgeInset;
+    
+    NSLog(@"Zoomed Scale: %f", scale);
 }
+
 
 
 
 - (UIView *) viewForZoomingInScrollView:(UIScrollView *)containerView
 {
-    NSLog(@"Zomm");
+    NSLog(@"Zoom");
     return self.mapa;
 }
 
@@ -126,12 +156,12 @@ scroll = _scroll
     self.scroll.maximumZoomScale = 3.0f;
     self.scroll.minimumZoomScale = 0.25f;
     self.scroll.clipsToBounds = YES;
-    self.scroll.zoomScale = 0.25;
+    self.scroll.zoomScale = 0.5;
 
     
-//    self.scroll.scrollEnabled = YES;
+    self.scroll.scrollEnabled = YES;
 //    self.scroll.scrollsToTop = NO;
-//    self.scroll.autoresizingMask = UIViewAutoresizingFlexibleHeight;
+    self.scroll.autoresizingMask = UIViewAutoresizingFlexibleHeight;
     self.scroll.delegate = self;
     
 
